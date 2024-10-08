@@ -11,3 +11,23 @@ I enjoy shooting pool and being outdoors. I have been playing pool competetively
 ## My Website
 [Bleacher Report](www.bleacherreport.com) - I get all my sports information from here. Specifically the Panthers and the Braves.  
 [YouTube](www.youtube.com) - I watch alot of tutorials shooting pool here to learn things. Also, a good place for learning to do about anything.
+
+```mermaid
+
+flowchart TD
+  %%Nodes
+  A["A Game Of 8 ball pool"]
+  B["Lag"] -->
+  C["Break Rack"] -->
+  D["Choose solid or stripes"] -->
+  E["Make all balls"]
+  E -->C
+  E-->F
+  F[Game over]
+
+```
+Lag chooses who breaks first.  
+Break starts the rack.  
+Select which balls you will shoot by picking stripes or solids.  
+Make all your balls to win the rack.  
+  
